@@ -1,0 +1,243 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>NewMovies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/fontawesome.pro.6.0.0.css" rel="stylesheet" />
+    <link href="assets/css/index.css" rel="stylesheet" />
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top main-nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><span>New</span>Movies</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="search-box">
+                    <i class="fa fa-search search-icon"></i>
+                    <input type="text" placeholder="Tìm kiếm">
+                </div>
+
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="index.html">Phim hot</a>
+                    <a class="nav-link" href="index-series.html">Phim bộ</a>
+                    <a class="nav-link" href="index-single.html">Phim lẻ</a>
+                    <a class="nav-link" href="index-new.html">Phim mới</a>
+                    <a class="nav-link" href="index-faqs.html">FAQs</a>
+                </div>
+
+                <div class="ms-auto">
+                    <button class="login-btn" onclick="window.location.href='login.html'">Đăng nhập</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="Layout">
+        <div class="Layout-default">
+            <div class="Layout-default-container">
+                <div class="inner">
+                    <div class="content">
+                        <div class="Home_wapper">
+                            <div class="Filter-Wapper">
+                                <div class="filter-container">
+                                    <div class="filter-group">
+                                        <label>Loại phim:</label>
+                                        <div class="select-wrapper">
+                                            <select class="filter-select" name="type">
+                                                <option value="">- Tất cả -</option>
+                                                <option value="single">Phim lẻ</option>
+                                                <option value="series">Phim bộ</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="filter-group">
+                                        <label>Thể loại:</label>
+                                        <div class="select-wrapper">
+                                            <select class="filter-select" name="genre">
+                                                <option value="">- Tất cả -</option>
+                                                <option value="action">Hành động</option>
+                                                <option value="adventure">Phiêu lưu</option>
+                                                <option value="horror">Kinh dị</option>
+                                                <option value="animation">Hoạt hình</option>
+                                                <option value="sci-fi">Viễn tưởng</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="filter-group">
+                                        <label>Quốc gia:</label>
+                                        <div class="select-wrapper">
+                                            <select class="filter-select" name="country">
+                                                <option value="">- Tất cả -</option>
+                                                <option value="vietnam">Việt Nam</option>
+                                                <option value="korea">Hàn Quốc</option>
+                                                <option value="china">Trung Quốc</option>
+                                                <option value="us">Âu Mỹ</option>
+                                                <option value="thailand">Thái Lan</option>
+                                                <option value="india">Ấn Độ</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="filter-group">
+                                        <label>Năm:</label>
+                                        <div class="select-wrapper">
+                                            <select class="filter-select" name="year">
+                                                <option value="">- Tất cả -</option>
+                                                <option value="2026">2026</option>
+                                                <option value="2025">2025</option>
+                                                <option value="2024">2024</option>
+                                                <option value="2023">2023</option>
+                                                <option value="2022">2022</option>
+                                                <option value="2021">2021</option>
+                                                <option value="2020">2020</option>
+                                                <option value="2019">2019</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="filter-group">
+                                        <label>Sắp xếp:</label>
+                                        <div class="select-wrapper">
+                                            <select class="filter-select" name="sortBy">
+                                                <option value="releaseDate">Ngày phát hành</option>
+                                                <option value="updateDate">Ngày cập nhật</option>
+                                                <option value="productionYear">Năm sản xuất</option>
+                                                <option value="views">Lượt xem</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <h2 class="heading">
+                                <span>PHIM ĐỀ CỬ</span>
+                            </h2>
+
+                            <div class="title-list">
+                                <div class="grid-columns">
+                                    <a class="column" href="#">
+                                        <div class="movie-item">
+                                            <div class="poster">
+                                                <img src="assets/img/film-top/cuu-long-thanh-trai-vay-thanh-thumb.png">
+                                            </div>
+                                            <div class="movie-info">
+                                                <h3 class="vn-title">Cửu Long Thành Trại: Vây Thành</h3>
+                                                <p class="en-title">Twilight of the Warriors: Walled In</p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a class="column" href="#">
+                                        <div class="movie-item">
+                                            <div class="poster">
+                                                <img src="assets/img/film-top/deadpool-va-wolverine-thumb.png">
+                                            </div>
+                                            <div class="movie-info">
+                                                <h3 class="vn-title">Deadpool và Wolverine</h3>
+                                                <p class="en-title">Deadpool & Wolverine</p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a class="column" href="#">
+                                        <div class="movie-item">
+                                            <div class="poster">
+                                                <img src="assets/img/film-top/exhuma-quat-mo-trung-ma-thumb.png" alt="Mufasa">
+                                            </div>
+                                            <div class="movie-info">
+                                                <h3 class="vn-title">Exhuma: Quật mộ trùng ma</h3>
+                                                <p class="en-title">Exhuma</p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a class="column" href="#">
+                                        <div class="movie-item">
+                                            <div class="poster">
+                                                <img src="assets/img/film-top/ke-trom-mat-trang-4-thumb.png">
+                                            </div>
+                                            <div class="movie-info">
+                                                <h3 class="vn-title">Kẻ Trộm Mặt Trăng 4</h3>
+                                                <p class="en-title">Despicable Me 4</p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a class="column" href="#">
+                                        <div class="movie-item">
+                                            <div class="poster">
+                                                <img src="assets/img/film-top/vung-dat-cam-lang-ngay-mot-thumb.jpg" />
+                                            </div>
+                                            <div class="movie-info">
+                                                <h3 class="vn-title">Vùng Đất Câm Lặng: Ngày Một </h3>
+                                                <p class="en-title">A Quiet Place: Day One</p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a class="column" href="#">
+                                        <div class="movie-item">
+                                            <div class="poster">
+                                                <img src="assets/img/film-top/hanh-tinh-khi-vuong-quoc-moi-thumb.jpg" />
+                                            </div>
+                                            <div class="movie-info">
+                                                <h3 class="vn-title">Hành Tinh Khỉ: Vương Quốc Mới </h3>
+                                                <p class="en-title">Kingdom of the Planet of the Apes</p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a class="column" href="#">
+                                        <div class="movie-item">
+                                            <div class="poster">
+                                                <img src="assets/img/film-top/vay-ham-tren-khong-thumb.jpg" />
+                                            </div>
+                                            <div class="movie-info">
+                                                <h3 class="vn-title">Vây Hãm Trên Không</h3>
+                                                <p class="en-title">Hijack 1971</p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a class="column" href="#">
+                                        <div class="movie-item">
+                                            <div class="poster">
+                                                <img src="assets/img/film-top/loc-xoay-tu-than-thumb.jpg" />
+                                            </div>
+                                            <div class="movie-info">
+                                                <h3 class="vn-title">Lốc Xoáy Tử Thần</h3>
+                                                <p class="en-title">Twisters</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <div class="footer">
+        <p>&copy; 2025 NewMovies. Design by Võ Quang Thành</p>
+    </div>
+
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/style.js"></script>
+</body>
+</html>

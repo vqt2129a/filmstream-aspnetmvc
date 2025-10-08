@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>NewMovies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/fontawesome.pro.6.0.0.css" rel="stylesheet" />
+    <link href="assets/css/index.css" rel="stylesheet" />
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top main-nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><span>New</span>Movies</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="search-box">
+                    <i class="fa fa-search search-icon"></i>
+                    <input type="text" placeholder="Tìm kiếm">
+                </div>
+
+                <div class="navbar-nav">
+                    <a class="nav-link" href="index.html">Phim hot</a>
+                    <a class="nav-link" href="index-series.html">Phim bộ</a>
+                    <a class="nav-link" href="index-single.html">Phim lẻ</a>
+                    <a class="nav-link" href="index-new.html">Phim mới</a>
+                    <a class="nav-link active" href="index-faqs.html">FAQs</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="Layout">
+        <div class="login-container">
+            <div class="login-box">
+                <h2 class="login-title">Đăng nhập</h2>
+                <form class="login-form">
+                    <div class="form-group">
+                        <label for="username">Tên đăng nhập</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Mật khẩu</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Nhập lại mật khẩu</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <button type="submit" class="login-btn">Đăng ký</button>
+                </form>
+                <div class="login-footer">
+                    <p>Đã có tài khoản? <a href="login.html">Đăng nhập ngay</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <div class="footer">
+        <p>&copy; 2025 NewMovies. Design by Võ Quang Thành</p>
+    </div>
+
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/style.js"></script>
+</body>
+</html>

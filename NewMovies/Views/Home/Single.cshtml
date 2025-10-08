@@ -1,0 +1,44 @@
+﻿@model List<NewMovies.Models.Movie>
+
+<div class="Layout-default">
+    <div class="Layout-default-container">
+        <div class="inner">
+            <div class="content">
+                <div class="Home_wapper">
+
+                    <h2 class="heading">
+                        <span>PHIM LẺ</span>
+                    </h2>
+
+                    <div class="title-list">
+                        <div class="grid-columns">
+                            @if (Model != null && Model.Count > 0)
+                            {
+                                @foreach (var movie in Model)
+                                {
+                                    <a class="column" asp-controller="Home" asp-action="Detail" asp-route-slug="@movie.Slug">
+                                        <div class="movie-item">
+                                            <div class="poster">
+                                                <img src="@movie.Thumb_Url" alt="@(movie?.Name ?? "Chưa có tên")" loading="lazy">
+                                            </div>
+                                            <div class="movie-info">
+                                                <h3 class="vn-title">@(movie?.Name ?? "Chưa có tên")</h3>
+                                                <p class="en-title">@(movie?.Origin_Name ?? "Unknown") (@(movie?.Year?.ToString() ?? "N/A"))</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                }
+                            }
+                            else
+                            {
+                                <p>Không có phim nào để hiển thị.</p>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

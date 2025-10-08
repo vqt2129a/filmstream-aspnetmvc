@@ -1,0 +1,32 @@
+﻿@model NewMovies.Models.MovieDetail
+<div class="video-container">
+   
+    <div class="video-player">
+   
+        <iframe src="@ViewBag.FirstEpisodeLink" width="1200" height="450" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-details">
+        <h1 class="video-title">@Model.Name</h1>
+
+        <div class="episode-info">
+
+            <div class="episode-label">@Model.Type / @Model.Quality</div>
+
+        </div>
+
+        <div class="episode-list">
+            @if (Model.Episodes?.FirstOrDefault()?.Server_Data != null)
+            {
+                @foreach (var episode in Model.Episodes.FirstOrDefault()?.Server_Data ?? Enumerable.Empty<NewMovies.Models.ServerData>())
+                {
+                    <button class="episode-btn @(episode.Link_Embed == ViewBag.FirstEpisodeLink ? "active" : "")" onclick="loadEpisode('@episode.Link_Embed', this)">@episode.Name</button>
+                }
+            }
+        </div>
+    </div>
+</div>
+
+
+
+

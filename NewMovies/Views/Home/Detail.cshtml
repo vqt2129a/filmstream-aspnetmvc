@@ -1,0 +1,81 @@
+﻿@model NewMovies.Models.MovieDetail
+
+@if (Model != null)
+{
+    <div class="movie-details">
+        <div class="movie-background" style="background-image: url('@Model.Poster_Url'); background-size: cover; background-position: center;"></div>
+
+        <div class="movie-content">
+            <div class="movie-poster">
+                @if (!string.IsNullOrEmpty(Model.Thumb_Url))
+                {
+                    <img src="@Model.Thumb_Url" alt="@Model.Name poster">
+                }
+                <form method="get" asp-controller="Home" asp-action="Watch" asp-route-slug="@Model.Slug">
+                    <button type="submit" class="btn-watch">Xem phim</button>
+                </form>
+            </div>
+            <div class="movie-info">
+                <h1 class="movie-title">@Model.Name</h1>
+                <div class="movie-original-title">@Model.Origin_Name (@Model.Year)</div>
+
+                <div class="movie-stats">
+                    <div class="movie-duration">@Model.Time</div>
+                    <div class="movie-episodes">@Model.Episode_Current / @Model.Episode_Total</div>
+                    <div class="movie-imdb">
+                        <span class="imdb-logo">IMDb</span>
+                        <span>@Model.Quality</span>
+                    </div>
+                </div>
+
+                <div class="movie-actions">
+                    <button id="btn-share" class="btn-share">
+                        <i class="fa-brands fa-facebook"></i>
+                        <span>Chia sẻ</span>
+                    </button>
+
+                </div>
+
+                <div class="movie-options">
+                    @if (Model.Category != null)
+                    {
+                        foreach (var category in Model.Category)
+                        {
+                            <button class="btn-option">@category.Name</button>
+                        }
+                    }
+                </div>
+
+                <div class="movie-details-grid">
+                    <div class="detail-label">ĐẠO DIỄN</div>
+                    <div class="detail-value">@(Model.Director != null && Model.Director.Any() ? string.Join(", ", Model.Director) : "Đang cập nhật...")</div>
+
+                    <div class="detail-label">QUỐC GIA</div>
+                    <div class="detail-value">@(Model.Country != null && Model.Country.Any() ? string.Join(", ", Model.Country.Select(c => c.Name)) : "Đang cập nhật...")</div>
+
+                    <div class="detail-label">DIỄN VIÊN</div>
+                    <div class="detail-value">@(Model.Actor != null && Model.Actor.Any() ? string.Join(", ", Model.Actor) : "Đang cập nhật...")</div>
+                </div>
+
+                <div class="movie-description">
+                    <p>@Model.Content</p>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div class="error-message">
+        <p>Không thể lấy dữ liệu từ API.</p>
+    </div>
+}
+
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <div class="error-message">
+        <p>@ViewBag.ErrorMessage</p>
+    </div>
+}
+
+

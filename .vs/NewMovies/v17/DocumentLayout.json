@@ -1,0 +1,152 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\WebFilm\\VoQuangThanh-D22C01A6058\\NewMovies\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{585E2BBA-7EC4-4C6E-BB60-366FED941C63}|NewMovies\\NewMovies.csproj|e:\\webfilm\\voquangthanh-d22c01a6058\\newmovies\\newmovies\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{585E2BBA-7EC4-4C6E-BB60-366FED941C63}|NewMovies\\NewMovies.csproj|solutionrelative:newmovies\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585E2BBA-7EC4-4C6E-BB60-366FED941C63}|NewMovies\\NewMovies.csproj|e:\\webfilm\\voquangthanh-d22c01a6058\\newmovies\\newmovies\\models\\phimbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585E2BBA-7EC4-4C6E-BB60-366FED941C63}|NewMovies\\NewMovies.csproj|solutionrelative:newmovies\\models\\phimbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585E2BBA-7EC4-4C6E-BB60-366FED941C63}|NewMovies\\NewMovies.csproj|e:\\webfilm\\voquangthanh-d22c01a6058\\newmovies\\newmovies\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585E2BBA-7EC4-4C6E-BB60-366FED941C63}|NewMovies\\NewMovies.csproj|solutionrelative:newmovies\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585E2BBA-7EC4-4C6E-BB60-366FED941C63}|NewMovies\\NewMovies.csproj|e:\\webfilm\\voquangthanh-d22c01a6058\\newmovies\\newmovies\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585E2BBA-7EC4-4C6E-BB60-366FED941C63}|NewMovies\\NewMovies.csproj|solutionrelative:newmovies\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585E2BBA-7EC4-4C6E-BB60-366FED941C63}|NewMovies\\NewMovies.csproj|e:\\webfilm\\voquangthanh-d22c01a6058\\newmovies\\newmovies\\wwwroot\\data\\movies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{585E2BBA-7EC4-4C6E-BB60-366FED941C63}|NewMovies\\NewMovies.csproj|solutionrelative:newmovies\\wwwroot\\data\\movies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585E2BBA-7EC4-4C6E-BB60-366FED941C63}|NewMovies\\NewMovies.csproj|e:\\webfilm\\voquangthanh-d22c01a6058\\newmovies\\newmovies\\views\\home\\series.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{585E2BBA-7EC4-4C6E-BB60-366FED941C63}|NewMovies\\NewMovies.csproj|solutionrelative:newmovies\\views\\home\\series.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585E2BBA-7EC4-4C6E-BB60-366FED941C63}|NewMovies\\NewMovies.csproj|e:\\webfilm\\voquangthanh-d22c01a6058\\newmovies\\newmovies\\wwwroot\\assets\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{585E2BBA-7EC4-4C6E-BB60-366FED941C63}|NewMovies\\NewMovies.csproj|solutionrelative:newmovies\\wwwroot\\assets\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585E2BBA-7EC4-4C6E-BB60-366FED941C63}|NewMovies\\NewMovies.csproj|e:\\webfilm\\voquangthanh-d22c01a6058\\newmovies\\newmovies\\views\\home\\watch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{585E2BBA-7EC4-4C6E-BB60-366FED941C63}|NewMovies\\NewMovies.csproj|solutionrelative:newmovies\\views\\home\\watch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\WebFilm\\VoQuangThanh-D22C01A6058\\NewMovies\\NewMovies\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "NewMovies\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\WebFilm\\VoQuangThanh-D22C01A6058\\NewMovies\\NewMovies\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "NewMovies\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T06:56:20.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PhimBo.cs",
+              "DocumentMoniker": "E:\\WebFilm\\VoQuangThanh-D22C01A6058\\NewMovies\\NewMovies\\Models\\PhimBo.cs",
+              "RelativeDocumentMoniker": "NewMovies\\Models\\PhimBo.cs",
+              "ToolTip": "E:\\WebFilm\\VoQuangThanh-D22C01A6058\\NewMovies\\NewMovies\\Models\\PhimBo.cs",
+              "RelativeToolTip": "NewMovies\\Models\\PhimBo.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T06:54:08.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "E:\\WebFilm\\VoQuangThanh-D22C01A6058\\NewMovies\\NewMovies\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "NewMovies\\Models\\Movie.cs",
+              "ToolTip": "E:\\WebFilm\\VoQuangThanh-D22C01A6058\\NewMovies\\NewMovies\\Models\\Movie.cs",
+              "RelativeToolTip": "NewMovies\\Models\\Movie.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAUwCEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T06:53:53.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "movies.json",
+              "DocumentMoniker": "E:\\WebFilm\\VoQuangThanh-D22C01A6058\\NewMovies\\NewMovies\\wwwroot\\data\\movies.json",
+              "RelativeDocumentMoniker": "NewMovies\\wwwroot\\data\\movies.json",
+              "ToolTip": "E:\\WebFilm\\VoQuangThanh-D22C01A6058\\NewMovies\\NewMovies\\wwwroot\\data\\movies.json",
+              "RelativeToolTip": "NewMovies\\wwwroot\\data\\movies.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-26T04:54:02.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "index.css",
+              "DocumentMoniker": "E:\\WebFilm\\VoQuangThanh-D22C01A6058\\NewMovies\\NewMovies\\wwwroot\\assets\\css\\index.css",
+              "RelativeDocumentMoniker": "NewMovies\\wwwroot\\assets\\css\\index.css",
+              "ToolTip": "E:\\WebFilm\\VoQuangThanh-D22C01A6058\\NewMovies\\NewMovies\\wwwroot\\assets\\css\\index.css",
+              "RelativeToolTip": "NewMovies\\wwwroot\\assets\\css\\index.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4CAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-26T04:10:38.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Series.cshtml",
+              "DocumentMoniker": "E:\\WebFilm\\VoQuangThanh-D22C01A6058\\NewMovies\\NewMovies\\Views\\Home\\Series.cshtml",
+              "RelativeDocumentMoniker": "NewMovies\\Views\\Home\\Series.cshtml",
+              "ToolTip": "E:\\WebFilm\\VoQuangThanh-D22C01A6058\\NewMovies\\NewMovies\\Views\\Home\\Series.cshtml",
+              "RelativeToolTip": "NewMovies\\Views\\Home\\Series.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T02:14:11.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\WebFilm\\VoQuangThanh-D22C01A6058\\NewMovies\\NewMovies\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "NewMovies\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\WebFilm\\VoQuangThanh-D22C01A6058\\NewMovies\\NewMovies\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "NewMovies\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAkCAAAAAAAAAAAAAFUBAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T02:09:31.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Watch.cshtml",
+              "DocumentMoniker": "E:\\WebFilm\\VoQuangThanh-D22C01A6058\\NewMovies\\NewMovies\\Views\\Home\\Watch.cshtml",
+              "RelativeDocumentMoniker": "NewMovies\\Views\\Home\\Watch.cshtml",
+              "ToolTip": "E:\\WebFilm\\VoQuangThanh-D22C01A6058\\NewMovies\\NewMovies\\Views\\Home\\Watch.cshtml",
+              "RelativeToolTip": "NewMovies\\Views\\Home\\Watch.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T18:11:45.471Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

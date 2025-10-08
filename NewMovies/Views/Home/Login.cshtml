@@ -1,0 +1,27 @@
+﻿@model NewMovies.Models.QuanLyTaiKhoan
+
+<div class="login-container">
+    <div class="login-box">
+        <h2 class="login-title">Đăng nhập</h2>
+        @if (ViewBag.ErrorMessage != null)
+        {
+            <div class="alert alert-danger">@ViewBag.ErrorMessage</div>
+        }
+        <form asp-action="Login" method="post" class="login-form">
+            <div class="form-group">
+                <label asp-for="TaiKhoan" class="control-label">Tên đăng nhập</label>
+                <input asp-for="TaiKhoan" class="form-control" required />
+                <span asp-validation-for="TaiKhoan" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MatKhau" class="control-label">Mật khẩu</label>
+                <input asp-for="MatKhau" type="password" class="form-control" required />
+                <span asp-validation-for="MatKhau" class="text-danger"></span>
+            </div>
+            <button type="submit" class="login-btn">Đăng nhập</button>
+        </form>
+        <div class="login-footer">
+            <p>Chưa có tài khoản? <a asp-controller="Home" asp-action="Register">Đăng ký ngay</a></p>
+        </div>
+    </div>
+</div>

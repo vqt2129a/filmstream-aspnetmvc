@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>NewMovies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/fontawesome.pro.6.0.0.css" rel="stylesheet" />
+    <link href="assets/css/index.css" rel="stylesheet" />
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top main-nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><span>New</span>Movies</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="search-box">
+                    <i class="fa fa-search search-icon"></i>
+                    <input type="text" placeholder="Tìm kiếm">
+                </div>
+
+                <div class="navbar-nav">
+                    <a class="nav-link" href="index.html">Phim hot</a>
+                    <a class="nav-link" href="index-series.html">Phim bộ</a>
+                    <a class="nav-link" href="index-single.html">Phim lẻ</a>
+                    <a class="nav-link" href="index-new.html">Phim mới</a>
+                    <a class="nav-link active" href="index-faqs.html">FAQs</a>
+                </div>
+
+                <div class="ms-auto">
+                    <button class="login-btn" onclick="window.location.href='login.html'">Đăng nhập</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="Layout">
+        <div class="Layout-default">
+            <div class="Layout-default-container">
+                <div class="inner">
+                    <div class="content">
+                        <h1>Câu hỏi thường gặp</h1>
+                        <div>
+                            <div>
+                                <h2>1. Xem phim bị chậm, mặc dù đã kích hoạt VIP Mode cho phim đó?</h2>
+                                <div>
+                                    <p>Nếu phim chạy nhưng cứ một đoạn lại bị dừng để chơi load tiếp, hãy lần lượt thử các cách sau:</p>
+                                    <ul>
+                                        <li>Chọn một server khác từ các server bên dưới phim.</li>
+                                        <li>Thử xem trên một thiết bị khác (máy tính / điện thoại / TV...). Nếu phim chạy mượt trên thiết bị khác => do thiết bị cũ của bạn. Hãy thử dùng một trình duyệt khác trên thiết bị cũ để xem.</li>
+                                        <li>Tắt modem 1 phút rồi bật lại.</li>
+                                    </ul>
+                                    <p>Nếu đã thử tất cả những cách trên mà phim vẫn chạy chậm, có thể <strong>băng thông đường truyền quốc tế</strong> mạng của bạn đang bị nghẽn (do dùng vào giờ cao điểm hoặc đứt cáp biển). Bạn có thể thử xem bằng 4G xem có cải thiện không (4G thường được các nhà mạng ưu tiên băng thông).</p>
+                                </div>
+                            </div>
+
+                            <div class="faq-item">
+                                <h2 >2. Phim bị giật hình (hình ảnh nhảy lên nhảy xuống) khi xem full màn hình, nhất là khi hiện phụ đề?</h2>
+                                <div >
+                                    <p>Hiện tượng này hay gặp gần đây khi xem phim trên Windows với các phiên bản driver card đồ họa mới. Cách khắc phục là hãy cài driver card đồ họa từ nhà sản xuất máy tính thay vì driver từ hãng chip đồ họa. VD: máy bạn là laptop Acer, có card đồ họa onboard Intel HD, thì hãy vào trang chủ của Acer (chứ không phải trang chủ của Intel) để download driver card đồ họa về cài đặt (uninstall driver đang dùng trước khi cài).</p>
+                                    <p>Nếu không cập nhật driver được hoặc cập nhật rồi mà tình trạng trên không hết, hãy thử tắt tính năng tăng tốc phần cứng của trình duyệt. Xem hướng dẫn tại đây.</p>
+                                    <p>Nếu đã làm cả 2 cách trên mà không có tác dụng, cách khắc phục là khi bật full màn hình, hãy để thanh công cụ player và tiến trình phim luôn hiển thị bằng cách rê chuột qua đó và để nguyên chuột ở đó (nếu không thanh này sẽ biến mất sau vài giây).</p>
+                                </div>
+                            </div>
+
+                            <div >
+                                <h2 >3. Gặp vấn đề về âm thanh: phim không có tiếng, mất tiếng nhân vật, hoặc âm thanh bị rè?</h2>
+                                <div >
+                                    <p>- Nếu xem trên điện thoại: Lỗi âm thanh là do trình duyệt của bạn (thường là Chrome). Hãy dùng trình duyệt Firefox hoặc Puffin!</p>
+                                    <p>- Nếu bạn xem trên PC: Khác với phim / clip trên các web khác (kể cả Youtube), phim trên XemPhim sử dụng âm thanh 5.1 (6 channel) thay vì âm thanh stereo (2 channel). Nếu thiết bị của bạn không hỗ trợ âm thanh 5.1, bạn có thể gặp vấn đề về âm thanh. Hãy thử chuyển sang chế độ âm thanh stereo trong cài đặt phim.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <div class="footer">
+        <p>&copy; 2025 NewMovies. Design by Võ Quang Thành</p>
+    </div>
+
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/style.js"></script>
+</body>
+</html>
